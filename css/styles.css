@@ -1,28 +1,42 @@
+body{
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.container{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 h1{
-    font-family: sans-serif;
-    font-weight: bolder;
-    color: red;
-    text-align: left;
+    color: #ec183f;
+    font-size: 45px;
+    margin-bottom: 0;
+    line-height: 0.7;
 }
 
-h4{ font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-    font-size: 14px;
-}
-
-p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    line-height: 20px;
+main{
+    border-bottom: solid 1px #ccc;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
     text-align: justify;
 }
 
-h2{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
+section > img{
+    width: 100%;
 }
 
-footer#rodape img{
-    width: 20px;
-    height: 30px;
+ul.redes-sociais{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul.redes-sociais li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+ul.redes-sociais li img{
+    width: 50px;
 }
